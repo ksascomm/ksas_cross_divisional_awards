@@ -1,0 +1,50 @@
+/*
+Theme Name:         KSAS Cross Divisional: Awards
+Theme URI:          http://krieger.jhu.edu
+Github Theme URI:   https://github.com/ksascomm/ksas_cross_divisional
+Description:        Theme for Research Awards. Child Theme of Cross Divisional (2018). Built off FoundationPress.
+Version:            1.0.0
+Author:             Tim Gelles
+Author URI:         http://krieger.jhu.edu/
+Template:           ksas_cross_divisional_18
+License:            MIT License
+License URI:        http://www.opensource.org/licenses/mit-license.php
+*/
+
+.home-intro {
+  font-size: 1.35rem;
+  background: #c3dcf5;
+}
+
+h1.research-intro {
+    font-family: "quadon-extrabold", "Helvetica Neue", Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.sidebar .sidebar-menu ul.nav li a {
+	margin-bottom: .75rem;
+}
+
+ul.sub-menu li {
+	font-family: gentona-semibold,"Helvetica Neue",Roboto,sans-serif;
+    font-weight: 600;
+}
+
+ul.nav > li:not(:last-child) {
+	padding-bottom: .5rem;
+}
+
+ul#directory {
+	margin-left: 0px;
+	list-style: none;
+}
+
+.profile-search .option {
+    padding-left: 1rem;
+}
+
+.profile-search .option .button {
+  margin-top: 1.5rem;
+}
