@@ -21,7 +21,7 @@ get_header();
 						</h1>
 				    </header> <!-- end article header -->
 									
-				    <section class="entry-content" itemprop="articleBody">
+				    <div class="entry-content" itemprop="articleBody">
 						<p>
 							<a href="<?php echo wp_get_attachment_url($post->id); ?>" title="<?php the_title(); ?>" rel="attachment">
 									<?php the_title(); ?>
@@ -29,7 +29,7 @@ get_header();
 						</p>
 						<h3>Description:</h3>
 						<?php the_excerpt(); ?>
-					</section> <!-- end article section -->
+					</div> <!-- end article section -->
 																	
 				</article> <!-- end article -->
 

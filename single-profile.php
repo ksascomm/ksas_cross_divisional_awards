@@ -20,7 +20,7 @@ get_header();
 					<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 			    </header> <!-- end article header -->
 								
-			    <section class="entry-content" itemprop="articleBody">
+			    <div class="entry-content" itemprop="articleBody">
 					<p class="no-margin">
 					    <?php if ( get_post_meta($post->ID, 'ecpt_class_year', true) ) : ?>
 					    	<strong>Year:</strong> <?php echo get_post_meta($post->ID, 'ecpt_class_year', true);?> <br>
@@ -98,7 +98,7 @@ get_header();
 
 					<?php endif; ?>
 
-				</section> <!-- end article section -->
+				</div> <!-- end article section -->
 																
 			</article> <!-- end article -->
 	   	
