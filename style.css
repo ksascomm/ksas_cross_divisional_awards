@@ -23,6 +23,10 @@ h1.research-intro {
     margin-top: 1rem;
 }
 
+.home-intro p:first-of-type {
+    padding-top: inherit;
+}
+
 .sidebar .sidebar-menu ul.nav li a {
 	margin-bottom: .75rem;
 }
