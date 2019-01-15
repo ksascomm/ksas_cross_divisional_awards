@@ -7,7 +7,7 @@
  */
 
 ?>
-<aside class="sidebar">
+<div class="sidebar">
 	<?php
 	global $post; // Setup the global variable $post
 	// Get the top-level page slug for sidebar/widget content conditionals
@@ -25,7 +25,7 @@
 	}
 	if ( $kiddies ) { ?>
 
-		<div class="sidebar-menu">
+		<div class="sidebar-menu" aria-labelledby="sidebar-navigation">
 			<h1 class="sidebar-menu-title" id="sidebar-navigation">Also in 
 			<?php if (is_home() ) :?>
 				<a href="<?php echo get_home_url(); ?>/about/">About</a>
@@ -99,4 +99,4 @@
 		</div>
 	<?php endwhile; endif; ?>
 
-</aside>
+</div>
