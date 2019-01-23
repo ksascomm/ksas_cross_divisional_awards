@@ -7,7 +7,7 @@
  */
 
 ?>
-<div class="sidebar" aria-label="Page Sidebar">
+<aside class="sidebar" aria-label="Page Sidebar">
 	<?php
 	global $post; // Setup the global variable $post
 	// Get the top-level page slug for sidebar/widget content conditionals
@@ -99,4 +99,4 @@
 		</div>
 	<?php endwhile; endif; ?>
 
-</div>
+</aside>
