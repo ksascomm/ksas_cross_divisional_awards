@@ -7,7 +7,7 @@
  */
 
 ?>
-<div class="sidebar">
+<div class="sidebar" aria-label="Page Sidebar">
 	<?php
 	global $post; // Setup the global variable $post
 	// Get the top-level page slug for sidebar/widget content conditionals
